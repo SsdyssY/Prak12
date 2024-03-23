@@ -1,0 +1,262 @@
+body {
+    background-color: #f0f0f0; /* светло-серый фон */
+    color: #333; /* темный текст */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.widthContainer {
+    max-width: 1200px;
+}
+
+.header {
+    background-color: #fff; /* белый фон */
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    font-family: 'ART';
+    border-bottom: 7px solid #4f5457; /* синий цвет */
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.menu .li {
+    height:30px;
+    background-color: #5a5a5a; /* синий цвет */
+    border-radius: 3px;
+    margin: 10px 0px;
+    margin-right: 20px;
+    padding: 5px;
+}
+
+.menu .li a:hover {
+    color: #000000; /* желтый цвет при наведении */
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff; /* белый текст */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.body {
+    font-family: Arial, sans-serif;
+    color: #333; /* темный текст */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    min-height: 84.6vh;
+}
+
+h1 {
+    font-family: ARTSTR;
+    font-size: 30px;
+}
+
+.form-container {
+    width: 30%;
+    min-width: 300px;
+    max-width: 400px;
+    color: #000; /* черный текст */
+}
+
+form {
+    margin: 500px auto;
+    padding: 120px;
+    background: #fff; /* белый фон */
+    border-radius: 3px;
+    font-size: 20px;
+    border: 3px solid #3a4349; /* синий цвет */
+}
+
+.input-group {
+    margin: 10px 0px 10px 0px;
+}
+
+.textarea{
+    height: 200px;
+    width: 300px;
+    min-width: 150px;
+    max-width: 350px;
+}
+
+.but-new {
+    width: 100%; /* Делаем кнопку во всю ширину формы */
+    background: #3b4247; /* синий цвет */
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 20px;
+    color: #fff; /* белый текст */
+    margin-top: 15px; /* Добавляем отступ сверху */
+}
+
+.but-new:hover {
+    background-color: #3b4247; /* темно-синий при наведении */
+}
+
+.but-new:active {
+    background-color: #000; /* черный цвет при активации */
+    color: #fff; /* белый текст */
+}
+
+.register-link {
+    text-decoration: none;
+    color: #3b4247; /* синий цвет */
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px; /* Добавляем отступ сверху */
+}
+
+.register-link:hover {
+    text-decoration: underline; /* Подчеркиваем при наведении */
+    color: #3b4247; /* темно-синий при наведении */
+}
+
+.but-new:hover{
+    background-color: #4a545a; /* темно-синий при наведении */
+}
+
+.but-new2:hover{
+    color: #000; /* черный текст */
+}
+
+.but-new:active{
+    background-color: #000; /* черный цвет при активации */
+    color: #fff; /* белый текст */
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.statements-container {
+    width: 60%;
+    margin: 20px auto;
+}
+
+
+.statement-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.statement-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.banner-container {
+    text-align: center;
+    margin-top: 30px; /* Регулируйте отступ в зависимости от ваших предпочтений */
+}
+
+.banner-container img {
+    max-width: 100%; /* Сделать изображение респонсивным */
+}
+.statement-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.statement-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.footer {
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border-top: 7px solid #000000;
+    padding: 10px 0;
+    bottom: 0;
+}
+
+.footer-logo img {
+    width: 100%;
+    height: auto;
+    max-width: 40px;
+    margin-bottom: 20px;
+}
+form {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.but-new,
+.but-new2 {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.but-new {
+    background-color: #50575c;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.but-new:hover {
+    background-color: #3b3f42;
+}
+
+.but-new2 {
+    background-color: transparent;
+    color: #333;
+    border: 1px solid #333;
+    margin-top: 10px;
+}
+
+.but-new2:hover {
+    color: #000;
+}
+
+.form-a {
+    text-decoration: none;
+    color: #1f2325;
+}
+
+.register-link {
+    margin-top: 10px;
+    display: block;
+}
